@@ -4,9 +4,9 @@ public class Main {
         int amount = 1500;
         int bonus;
 
-        if (amount >=1000){
+        if (amount > 1000) {
             bonus = amount / 100;
-        } else{
+        } else {
             bonus = 0;
         }
         int total = ballance + amount + bonus;
